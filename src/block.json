@@ -1,0 +1,12 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "carlansell94/associated-links",
+	"version": "0.1.0",
+	"title": "Associated Links",
+	"category": "widgets",
+	"icon": "admin-links",
+	"description": "Add associated links to your posts and pages",
+	"keywords": [ "links" ],
+	"textdomain": "associated-links"
+}

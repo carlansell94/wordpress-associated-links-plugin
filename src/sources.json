@@ -1,0 +1,26 @@
+{
+    "github": {
+        "name": "GitHub",
+        "icon": "github.svg"
+    },
+    "youtube": {
+        "name": "YouTube",
+        "icon": "youtube.png"
+    },
+    "kofi": {
+        "name": "Ko-Fi",
+        "icon": "kofi.png"
+    },
+    "oshpark": {
+        "name": "OSH Park",
+        "icon": "oshpark.webp"
+    },
+    "download": {
+        "name": "Download",
+        "icon": "download.svg"
+    },
+    "other": {
+        "name": "Other",
+        "icon": "other.svg"
+    }
+}
