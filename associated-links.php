@@ -6,6 +6,7 @@
  * Requires PHP:      7.0
  * Version:           0.1.0
  * Author:            Carl Ansell
+ * Author URI:		  https://carlansell.co.uk
  * License:           GPL-3.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain:       associated-links
@@ -16,21 +17,21 @@ function register_associated_links_plugin()
 {
     wp_register_script(
         'associated-links-js',
-        plugin_dir_url(__FILE__) . '/build/index.js',
+        plugin_dir_url(__FILE__) . 'build/index.js',
         array('wp-blocks', 'wp-element', 'wp-editor', 'wp-components', 'wp-i18n', 'wp-api-fetch'),
         1.0
     );
 
     wp_enqueue_style(
         'associated-links-css-editor',
-        plugin_dir_url(__FILE__) . '/build/main.css',
+        plugin_dir_url(__FILE__) . 'build/main.css',
         array('wp-edit-blocks'),
         1.0
     );
 
     wp_enqueue_style(
         'associated-links-css',
-        plugin_dir_url(__FILE__) . '/build/style-main.css',
+        plugin_dir_url(__FILE__) . 'build/style-main.css',
         array(),
         1.0
     );
